@@ -2,58 +2,58 @@ package Pets;
 
 public class TamagotchiCharacters {
 
-    String name;
-    String race;
-    int age;
-    String mood;
-    int energy;
+    private static String name;
+    private static String race;
+    private static int age;
+    private static String mood;
+    private static int energy;
 
     public TamagotchiCharacters(String name, String race, int age, String mood, int energy){
-        this.name = name;
-        this.race = race;
-        this.age = age;
-        this.mood = mood;
-        this.energy = energy;
+        TamagotchiCharacters.name = name;
+        TamagotchiCharacters.race = race;
+        TamagotchiCharacters.age = age;
+        TamagotchiCharacters.mood = mood;
+        TamagotchiCharacters.energy = energy;
     }
 
-    public String getName() {
+    public static String getName() {
         return name;
     }
 
     public void setName(String name) {
-        this.name = name;
+        TamagotchiCharacters.name = name;
     }
 
-    public String getRace() {
+    public static String getRace() {
         return race;
     }
 
     public void setRace(String race) {
-        this.race = race;
+        TamagotchiCharacters.race = race;
     }
 
-    public int getAge() {
+    public static int getAge() {
         return age;
     }
 
     public void setAge(int age){
-        this.age = age;
+        TamagotchiCharacters.age = age;
     }
 
-    public String getMood() {
+    public static String getMood() {
         return mood;
     }
 
     public void setMood(String mood) {
-        this.mood = mood;
+        TamagotchiCharacters.mood = mood;
     }
 
-    public int getEnergy() {
+    public static int getEnergy() {
         return energy;
     }
 
     public void setEnergy(int energy) {
-        this.energy = energy;
+        TamagotchiCharacters.energy = energy;
     }
 
 }

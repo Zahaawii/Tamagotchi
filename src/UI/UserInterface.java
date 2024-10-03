@@ -40,8 +40,13 @@ public class UserInterface {
         }
 
         if(userGameChoice == 2) {
-            ConsoleOperatos.pressToContiune();
-            System.out.println("Game time");
+            do {
+                ConsoleOperatos.pressToContiune();
+                System.out.println("Game time");
+                GameInterface.welcomeGameInterface();
+                GameInterface.userDecisionGame();
+            } while(true);
+
         }
     }
 }

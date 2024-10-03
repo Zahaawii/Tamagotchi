@@ -42,4 +42,11 @@ public class ConsoleOperatos {
         System.out.println("( o.o )");
         System.out.println(" > ^ <");
     }
+
+    public static void dogDrawing() {
+        System.out.println("      |\\      _,,,---,,_\n" +
+                "ZZZzz /,`.-'`'    -.  ;-;;,_\n" +
+                "     |,4-  ) )-,_. ,\\ (  `'-'\n" +
+                "    '---''(_/--'  `-'\\_)  ");
+    }
 }

@@ -1,9 +1,6 @@
 package Pets;
-
 import java.util.List;
-import java.util.Scanner;
 import java.util.ArrayList;
-import java.util.List;
 
 public class CreateTamagotchiCharacter {
 
@@ -20,7 +17,7 @@ public class CreateTamagotchiCharacter {
     }
 
     //See if the character exist
-    public TamagotchiCharacters getTamagotchiCharacters(String name) {
+    public static TamagotchiCharacters getTamagotchiCharacters(String name) {
         for(TamagotchiCharacters tamagotchiCharacters : characters){
             if(tamagotchiCharacters.getName().equalsIgnoreCase(name)) {
                 return tamagotchiCharacters;
