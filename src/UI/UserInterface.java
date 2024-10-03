@@ -34,15 +34,16 @@ public class UserInterface {
         } while (userGameChoice < 1 || userGameChoice > 2);
 
 
+        //User has the opportunity to create his own pet
         if(userGameChoice == 1) {
             ConsoleOperatos.pressToContiune();
             CreateCharacter.createCharacter();
         }
 
+        //when the user has created a pet the user can play with it
         if(userGameChoice == 2) {
             do {
                 ConsoleOperatos.pressToContiune();
-                System.out.println("Game time");
                 GameInterface.welcomeGameInterface();
                 GameInterface.userDecisionGame();
             } while(true);
