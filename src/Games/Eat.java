@@ -3,11 +3,14 @@ package Games;
 import Pets.TamagotchiCharacters;
 import java.util.Random;
 
+//Class has been made to get the user the opportuinity to let their pet eat.
 public class Eat {
 
+    //Initialize the Tamagotchi object to the class
     static TamagotchiCharacters c1 = new TamagotchiCharacters(TamagotchiCharacters.getName(), TamagotchiCharacters.getRace(), TamagotchiCharacters.getAge(), TamagotchiCharacters.getMood(), TamagotchiCharacters.getEnergy());
     static Random rd = new Random();
 
+    //Creating a method to make the pet eat
     public static void eatFood() {
 
         int randomEnergy = rd.nextInt(99);
