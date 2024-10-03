@@ -2,14 +2,16 @@ package Games;
 
 import Pets.TamagotchiCharacters;
 import UI.ConsoleOperatos;
-
 import java.util.Random;
 
+//Created a class to let the user choose if the user wants their pet to sleep/relax
 public class Sleep {
 
+    //Initialize the Tamagotchi object to the class
     static TamagotchiCharacters c1 = new TamagotchiCharacters(TamagotchiCharacters.getName(), TamagotchiCharacters.getRace(), TamagotchiCharacters.getAge(), TamagotchiCharacters.getMood(), TamagotchiCharacters.getEnergy());
     static Random rd = new Random();
 
+    //Created a method to showcase the opportunities of sleep
     public static void getSleep() {
 
         int randomEnergy = rd.nextInt(99);
