@@ -1,5 +1,7 @@
 package Pets;
 
+//Created a class that has the backend of the game. 
+//Made the methods and datatypes static to have easy access to the getters so we can showace the users pets attributes
 public class TamagotchiCharacters {
 
     private static String name;
