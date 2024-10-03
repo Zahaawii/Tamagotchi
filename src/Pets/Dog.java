@@ -1,21 +1,23 @@
 package Pets;
 
 import UI.ConsoleOperatos;
-
 import java.util.Scanner;
 
+//Created a class that extends Tamagotchi class with Tamagothcis attributes.
 public class Dog extends TamagotchiCharacters{
 
     public Dog(String name, String race, int age, String mood, int energy) {
         super(name, race, age, mood, energy);
     }
 
+    //Created an Arraylist and some hardcoded attrbitue when you start creating your pet.
     static private CreateTamagotchiCharacter characters = new CreateTamagotchiCharacter();
     static Scanner scanner = new Scanner(System.in);
     static int age = 0;
     static String mood = "Happy";
     static int energy = 100;
 
+     //Gives the user the opportunity to create a cat. The attributes will be stored in the ArrayList and in the object.
     public static void createDog() {
         System.out.println("You want to create a dog");
         ConsoleOperatos.clearConsole();
