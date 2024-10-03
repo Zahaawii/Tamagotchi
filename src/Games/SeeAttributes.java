@@ -6,8 +6,7 @@ import Pets.TamagotchiCharacters;
 //Created a class for the user to see his pets attributes, name,race, ace, mood and energy
 public class SeeAttributes {
 
-        //Initialize the Tamagotchi object to the class
-
+    //Initialize the Tamagotchi object to the class
     static TamagotchiCharacters c1 = new TamagotchiCharacters(TamagotchiCharacters.getName(), TamagotchiCharacters.getRace(), TamagotchiCharacters.getAge(), TamagotchiCharacters.getMood(), TamagotchiCharacters.getEnergy());
 
 
